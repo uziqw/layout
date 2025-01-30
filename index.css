@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .container {
+    background-color: #C7F0C7;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid #238000;
+  }
+  .container-top {
+    background-color: #ADD8E6;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 5px solid #2000FF;
+    display: grid;
+    grid-template-areas: 'c1a c1b c1c';
+  }
+  .container1a {
+    grid-area: c1a;
+    background-color: #FCDAB9;
+    margin: 4px;
+    border: 5px solid #F78072;
+    height: 100px;
+  }
+  .container1b {
+    grid-area: c1b;
+    background-color: #FCDAB9;
+    padding: 10px;
+    margin: 4px;
+    border: 5px solid #F78072;
+    height: 100px;
+    display: grid;
+    grid-template-areas: 'c1ba c1bb';
+  }
+  .container1c {
+    grid-area: c1c;
+    background-color: #FCDAB9;
+    padding: 10px;
+    margin: 4px;
+    border: 5px solid #F78072;
+    height: 100px;
+  }
+  .container1ba {
+    background-color: #FAC0CB;
+    border: 5px solid #F40105;
+    grid-area: c1ba;
+  }
+  .container1bb {
+    background-color: #FAC0CB;
+    border: 5px solid #F40105;
+    grid-area: c1bb;
+  }
+  .container-middle {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-areas: 'c2a c2b'
+                          'c2a c2c';
+    grid-gap: 15px 10px;
+  }
+  .container2a {
+    margin-right: 4px;
+    background-color: #FABBBB;
+    border: 5px solid #A52B2A;
+    height: 300px;
+    grid-area: c2a;
+  }
+  .container2b {
+    border: 5px solid yellow;
+    background-color: #FABBBB;
+    border: 5px solid #A52B2A;
+    grid-area: c2b;
+  }
+  .container2c {
+    border: 5px solid yellow;
+    background-color: #FABBBB;
+    border: 5px solid #A52B2A;
+    grid-area: c2c;
+  }
+  .container-bottom {
+    background-color: #ADD8E6;
+    padding: 10px;
+    height: 120px;
+    border: 5px solid #2000FF;
+    display: grid;
+    grid-template-areas: 'c3a c3a c3b c3c c3d c3d';
+  }
+  .container3a {
+    background-color: #dfd9fd;
+    margin: 4px;
+    border: 5px solid #6A5ACD;
+    grid-area: c3a;
+  }
+  .container3b {
+    background-color: #FCDAB9;
+    margin: 4px;
+    border: 5px solid #F78072;
+    grid-area: c3b;
+  }
+  .container3c {
+    background-color: #FCDAB9;
+    margin: 4px;
+    border: 5px solid #F78072;
+    grid-area: c3c;
+  }
+  .container3d {
+    background-color: #dfd9fd;
+    margin: 4px;
+    border: 5px solid #6A5ACD;
+    grid-area: c3d;
+  }
+  .name {
+    text-align: center;
+  }
+  .name > p {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 2em;
+  }
+  
